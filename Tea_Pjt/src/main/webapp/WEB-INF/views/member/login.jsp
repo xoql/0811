@@ -6,6 +6,21 @@
 <%@include file="../include/header.jsp" %>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>login로그인</title>
+<style>
+	body{
+		text-align: center;
+	}
+	.inputText{
+		margin: 12px;
+		width: 70%;
+		height: 40px;
+		text-align: center;
+	}
+	#button{
+		width: 70%;
+		height: 40px;
+	}
+</style>
 </head>
 <%-- <c:when test="${msg==null }">
 	<c:choose>
@@ -17,10 +32,19 @@
 		</script>
 	</c:otherwise>
 </c:when> --%>
+<body>
+	<%@include file="../include/menu.jsp" %>
 	<form action="login.do" method="post">
-		<h3>로그인</h3>
-		<input id="user_id" type="text" name="user_id" placeholder="ID" ><p>
-		<input id="password" type="password"name="password" placeholder="PASSWORD" ><p>
-		<input type="submit" value="로그인">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h3>로그인</h3>
+				<input id="user_id" class="inputText" type="text" name="user_id" placeholder="ID" ><p>
+				<input id="password" class="inputText" type="password"name="password" placeholder="PASSWORD" ><p>
+				<input id="button" type="submit" value="로그인">
+			</div>
+			<div class="col-md-3"></div>
+		</div>
 	</form>
+</body>
 </html>

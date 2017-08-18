@@ -34,40 +34,39 @@
 			</nav>
 		</div>
 		<div class="row submenu" style="background: black;">
-			<div class="col-sm-1">
-			</div>		
+			<div class="col-sm-1"></div>		
 			<div class="col-sm-7 ">
-			<ul>
-				<li><a href="#">브랜드소개</a></li>
-				<li><a href="#">주문방법</a></li>
-				<li><a href="#">매장찾기</a></li>
-				<li><a href="#">제휴혜택</a></li>
-				<li><a href="#">이벤트</a></li>
-			</ul>
-
-			<ul>
-				<li><a href="#">공차의약속</a></li>
-				<li><a href="#">주문방법</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-			</ul>
-
-			<ul>
-				<li><a href="#">브랜드소개</a></li>
-				<li><a href="#">주문방법</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-			</ul>
-
-			<ul>
-				<li><a href="#">브랜드소개</a></li>
-				<li><a href="#">주문방법</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-			</ul>
+				<ul>
+					<li><a href="${path}/menu/introduceGongcha.do">브랜드소개</a></li>
+					<li><a href="#">주문방법</a></li>
+					<li><a href="#">매장찾기</a></li>
+					<li><a href="#">제휴혜택</a></li>
+					<li><a href="#">이벤트</a></li>
+				</ul>
+	
+				<ul>
+					<li><a href="#">공차의약속</a></li>
+					<li><a href="#">음료</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="${path}/menu/attendanceShow.do">출석체크</a></li>
+				</ul>
+	
+				<ul>
+					<li><a href="#">브랜드소개</a></li>
+					<li><a href="#">디저트</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+	
+				<ul>
+					<li><a href="#">브랜드소개</a></li>
+					<li><a href="#">상품</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
 			</div>
 			<div class="col-sm-4">
 			</div>	
